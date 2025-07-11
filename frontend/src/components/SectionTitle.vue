@@ -1,4 +1,3 @@
-Code snippet
 <script setup>
 defineProps({ title: String });
 </script>

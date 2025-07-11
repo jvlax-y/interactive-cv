@@ -1,11 +1,11 @@
 Code snippet
 <script setup>
-import Navbar from '@/components/Navbar.vue';
-import Hero from '@/components/Hero.vue';
-import Education from '@/components/Education.vue';
-import Skills from '@/components/Skills.vue';
-import Projects from '@/components/Projects.vue';
-import Contact from '@/components/Contact.vue';
+import Navbar from '@/components/NavbarSection.vue';
+import Hero from '@/components/HeroSection.vue';
+import Education from '@/components/EducationSection.vue.vue';
+import Skills from '@/components/SkillsSection.vue';
+import Projects from '@/components/ProjectsSection.vue';
+import Contact from '@/components/ContactSection.vue';
 </script>
 <template>
 <div>
