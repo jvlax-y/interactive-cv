@@ -8,14 +8,14 @@ import SectionTitle from './SectionTitle.vue'
       <SectionTitle title="Hubungi Saya" />
 
       <p class="text-xl text-gray-300 mb-8">
-        Jangan ragu untuk terhubung atau bertanya 😊
+        Jangan ragu untuk terhubung atau bertanya 
       </p>
 
       <a
         href="mailto:maulidaluthfi@students.amikom.ac.id"
         class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300 inline-block mb-12"
       >
-        ✉️ Kirim Email
+        Send Email
       </a>
 
       <div class="flex justify-center space-x-6 mb-8 text-lg">
@@ -40,7 +40,7 @@ import SectionTitle from './SectionTitle.vue'
 
       <p class="text-gray-500 text-sm">
         &copy; {{ new Date().getFullYear() }} Maulida. Dibuat dengan
-        <span class="text-red-500">❤</span> menggunakan Vue.js dan Tailwind CSS.
+        <span class="text-pink-500">❤</span> menggunakan Vue.js dan Tailwind CSS.
         Semua hak dilindungi.
       </p>
     </div>

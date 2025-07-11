@@ -14,7 +14,9 @@
   </div>
 
   <div class="md:w-1/2 flex justify-center animate-slide-in-right">
-    <img src="../assets/foto-profil.jpg" alt="Foto Profil" class="w-80 h-80 rounded-full object-cover shadow-lg" />
+    <img src="../assets/foto-profil.jpg" alt="Foto Profil" class="w-80 h-80 rounded-full object-cover drop-shadow-md border-4 border-pink-400"
+    style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);" />
+    
   </div>
 </section>
 </template>
