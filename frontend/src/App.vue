@@ -1,9 +1,13 @@
 Code snippet
 <script setup>
 import { RouterView } from 'vue-router';
+import background  from '../src/assets/pink.jpeg'; // relative to current file
 </script>
 <template>
-<div class="bg-gray-100 font-sans">
+    <div
+class="font-sans min-h-screen bg-cover bg-center bg-opacity-80"
+    :style="{ backgroundImage: `url(${background})` }"
+  >
 <RouterView />
 </div>
 </template>

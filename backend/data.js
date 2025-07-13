@@ -15,18 +15,40 @@ const skills = [
 
 const projects = [
   {
-    title: 'Aplikasi Edukasi AmbisCamp',
-    image: 'https://via.placeholder.com/500x300?text=AmbisCamp',
-    description: 'Platform edukasi dengan sistem quest dan leaderboard.',
-    tech: ['Vue.js', 'Tailwind', 'Figma'],
+    title: 'AmbisCamp – Aplikasi Edukasi',
+    image: '/porto1.jpg',
+    description: 'Aplikasi edukasi dengan sistem quest...',
+    tech: ['Figma'],
     link: '#'
   },
   {
-    title: 'Portfolio Website',
-    image: 'https://via.placeholder.com/500x300?text=Portfolio',
-    description: 'Website pribadi untuk showcase desain dan proyek.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
+    title: 'Joglo Media – Website Jasa Pembuatan Website',
+    image: '/porto2.jpg',
+    description: 'Website company profile untuk Joglo Media...',
+    tech: ['Figma', 'Vue.js'],
     link: '#'
+  },
+  {
+    title: 'AmiKost – UI/UX Aplikasi Kost',
+    image: '/porto3.png',
+    description: 'Desain aplikasi mobile...',
+    tech: ['Figma'],
+    link: '#'
+  },
+  {
+    title: 'ReadLine – Aplikasi Buku Digital',
+    image: '/porto4.jpg',
+    description: 'UI untuk aplikasi baca buku digital...',
+    tech: ['Figma'],
+    link: '#'
+  },
+  {
+    title: 'Maha Parfume – Website E-commerce Parfum',
+    image: '/porto5.jpg',
+    description: 'Website e-commerce parfum dengan fitur keranjang...',
+    tech: ['Vite', 'Node.js', 'Express', 'MongoDB'],
+    link: 'https://mahaparfum-dhbdeyasgzhbg9ct.southeastasia-01.azurewebsites.net/'
   }
 ];
+
 module.exports = { educationHistory, skills, projects };

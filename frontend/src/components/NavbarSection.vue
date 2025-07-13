@@ -1,5 +1,5 @@
 <template>
-<header class="bg-white shadow-md sticky top-0 z-50 animate-fade-in">
+<header class="bg-pink-200 shadow-md sticky top-0 z-50 animate-fade-in">
 <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
 <div class="text-2xl font-bold text-gray-800">Maulida Luthfi</div>
 <ul class="flex space-x-6">

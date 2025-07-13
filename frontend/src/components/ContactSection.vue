@@ -3,17 +3,17 @@ import SectionTitle from './SectionTitle.vue'
 </script>
 
 <template>
-  <footer id="kontak" class="py-20 bg-gray-800 text-white">
+  <footer id="kontak" class="py-20 bg-pink-300 text-white">
     <div class="container mx-auto px-6 text-center">
       <SectionTitle title="Hubungi Saya" />
 
-      <p class="text-xl text-gray-300 mb-8">
+      <p class="text-xl text-gray-600 mb-8">
         Jangan ragu untuk terhubung atau bertanya 
       </p>
 
       <a
         href="mailto:maulidaluthfi@students.amikom.ac.id"
-        class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300 inline-block mb-12"
+        class="bg-gray-400 text-white font-bold py-3 px-6 rounded-lg hover:bg-pink-500 transition-colors duration-300 inline-block mb-12"
       >
         Send Email
       </a>
@@ -23,7 +23,7 @@ import SectionTitle from './SectionTitle.vue'
           href="https://github.com/jvlax-y"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-gray-400 hover:text-white transition-colors duration-300"
+          class="text-gray-700 hover:text-white transition-colors duration-300"
         >
          GitHub
         </a>
@@ -32,7 +32,7 @@ import SectionTitle from './SectionTitle.vue'
           href="#"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-gray-400 hover:text-white transition-colors duration-300"
+          class="text-gray-700 hover:text-white transition-colors duration-300"
         >
           LinkedIn
         </a>
