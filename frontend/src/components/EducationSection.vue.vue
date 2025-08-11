@@ -16,14 +16,14 @@ onMounted(async () => {
     educationHistory.value = [
       {
         id: 1,
-        period: '2016 - 2019',
-        institution: 'SMA Negeri 1 Semarang',
+        period: '2020 - 2023',
+        institution: 'SMA Negeri 3 Klaten',
         major: 'IPA'
       },
       {
         id: 2,
-        period: '2019 - 2023',
-        institution: 'Universitas Teknologi Indonesia',
+        period: '2023 - present',
+        institution: 'Universitas Amikom Yogyakarta',
         major: 'Informatika'
       }
     ];
