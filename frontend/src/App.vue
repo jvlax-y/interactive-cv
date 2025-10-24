@@ -1,7 +1,7 @@
 Code snippet
 <script setup>
 import { RouterView } from 'vue-router';
-import background  from '../src/assets/pink.jpeg'; // relative to current file
+import background  from '../src/assets/pink.jpeg'; 
 </script>
 <template>
     <div

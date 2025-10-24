@@ -1,4 +1,3 @@
-// backend/data.js
 const educationHistory = [
   { id: 1, period: '2023 - Sekarang', institution: 'Universitas Amikom Yogyakarta', major: 'S1 - Informatika' },
   { id: 2, period: '2020 - 2023', institution: 'SMA Negeri 3 Klaten', major: 'IPA' },
