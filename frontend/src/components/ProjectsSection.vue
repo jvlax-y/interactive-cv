@@ -1,3 +1,4 @@
+```vue
 <script setup>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
@@ -6,11 +7,13 @@ import img2 from '../assets/porto2.jpg';
 import img3 from '../assets/porto3.png';
 import img4 from '../assets/porto4.jpg';
 import img5 from '../assets/porto5.jpg';
+import imgApar from '../assets/AdminPAge.jpg';
+import bahtera from '../assets/bahtera.png';
+import cafe from '../assets/Cafe.jpg';
 import SectionTitle from './SectionTitle.vue';
 
 const projects = ref([]);
 
-// Ambil data dari backend saat komponen dimuat
 onMounted(async () => {
   try {
     const response = await axios.get('http://localhost:3000/api/projects');
@@ -18,21 +21,41 @@ onMounted(async () => {
   } catch (error) {
     console.error(error);
 
-    // fallback data dummy kalau API gagal
     projects.value = [
+      {
+        title: 'Cafe Cilaxie – Jogja Cafe Finder',
+        image: cafe, // atau buat img baru: imgCafe
+        description: 'Web app untuk menemukan cafe di Yogyakarta dengan filter kustomisasi dan peta interaktif.',
+        tech: ['Vue.js', 'Node.js', 'MySQL', 'Tailwind CSS'],
+        link: 'https://cafe-cilaxie.vercel.app/'
+      },
+      {
+        title: 'Bahtera Creative – Portfolio Website',
+        image: bahtera, // atau buat img baru: imgBahtera
+        description: 'Portfolio management system untuk UMKM logo design. Desain UI/UX dari nol dengan admin dashboard.',
+        tech: ['Figma', 'UI/UX Design', 'User Research'],
+        link: 'https://www.bahteracreative.com/'
+      },
+      {
+        title: 'Management System – Mobile & Web',
+        image: imgApar, // atau buat img baru: imgApar
+        description: 'Cross-platform system dengan QR scanning dan role-based access control. Built dengan React + Ionic.',
+        tech: ['React', 'TypeScript', 'Ionic', 'Capacitor', 'Node.js'],
+        link: '#'
+      },
       {
         title: 'AmbisCamp – Aplikasi Edukasi',
         image: img1,
         description: 'Aplikasi edukasi dengan sistem quest, leaderboard, dan kelas live interaktif. Dirancang untuk pengguna dari kalangan anak sekolah.',
         tech: ['Figma'],
-        link: '#'
+        link: 'https://www.figma.com/proto/UP97XuIwLHCk2faHgQeQfi/broken-heart-emoji?node-id=0-1&t=nw47oqT669jcNAaI-1'
       },
       {
         title: 'Joglo Media – Website Jasa Pembuatan Website',
         image: img2,
         description: 'Website company profile untuk Joglo Media yang fokus pada digitalisasi UMKM. Desain responsif dengan ilustrasi lokal dan layout profesional.',
         tech: ['Figma', 'vue.js'],
-        link: '#'
+        link: 'https://joglomediaweb.com/'
       },
       {
         title: 'AmiKost – UI/UX Aplikasi Kost',

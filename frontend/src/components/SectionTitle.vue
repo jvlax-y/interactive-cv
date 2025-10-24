@@ -5,6 +5,6 @@ defineProps({ title: String });
 <div class="mb-12 text-center">
 <h2 class="text-4xl font-bold text-gray-800">{{ title }}</h2>
 
-<div class="w-24 h-1 bg-pink-600 mx-auto mt-4 rounded"></div>
+<div class="w-24 h-1 bg-pink-200 mx-auto mt-4 rounded"></div>
 </div>
 </template>
