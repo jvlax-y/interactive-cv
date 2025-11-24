@@ -27,7 +27,7 @@ onMounted(async () => {
         major: 'Informatika',
         gpa: '3.74/4.00',
         achievements: [
-          'P2MW 2025 Government Funding Recipient',
+          'KMI Expo 2025 participant',
           'Active in FOSSIL Organization',
           'Co-founder of Joglo Media Web Dev'
         ]

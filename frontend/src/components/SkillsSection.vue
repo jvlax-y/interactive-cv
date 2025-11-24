@@ -41,6 +41,7 @@ onMounted(() => {
 </script>
 
 <template>
+
   <section id="skill" class="py-20 bg-pink-50">
     <div class="container mx-auto px-6">
       <SectionTitle title="Skills & Technologies" />

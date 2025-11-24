@@ -2,6 +2,7 @@ Code snippet
 <script setup>
 import { RouterView } from 'vue-router';
 import background  from '../src/assets/pink.jpeg'; 
+
 </script>
 <template>
     <div

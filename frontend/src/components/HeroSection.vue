@@ -1,4 +1,5 @@
 <script setup>
+
 const scrollToSection = (sectionId) => {
   document.getElementById(sectionId)?.scrollIntoView({ 
     behavior: 'smooth',
@@ -10,7 +11,6 @@ const scrollToSection = (sectionId) => {
 <template>
   <section id="profil" class="container mx-auto px-6 py-20">
     <div class="flex flex-col md:flex-row items-center gap-12">
-      <!-- LEFT SIDE - Text Content -->
       <div class="md:w-1/2">
         <h1 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6 animate-slide-in-left" style="animation-delay:200ms;">
           Halo, Saya 
@@ -47,10 +47,10 @@ const scrollToSection = (sectionId) => {
       <!-- RIGHT SIDE - Profile Image -->
       <div class="md:w-1/2 flex justify-center animate-slide-in-right" style="animation-delay: 400ms;">
   <div class="relative">
-    <!-- Main Image -->
-    <div class="relative z-10 w-80 h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white group">
+   
+    <div class="relative z-10 w-80 h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden shadow-2xl border-2 border-white group">
       <img
-        src="../assets/foto-profil.jpg"
+        src="../assets/foto2.jpg"
         alt="Maulida Luthfi"
         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
       />
@@ -63,6 +63,7 @@ const scrollToSection = (sectionId) => {
     <!-- Small Accent Dots -->
     <div class="absolute top-4 right-4 w-4 h-4 bg-pink-500 rounded-full animate-pulse"></div>
     <div class="absolute bottom-8 left-8 w-3 h-3 bg-pink-400 rounded-full animate-pulse" style="animation-delay: 0.5s;"></div>
+
   </div>
 </div>
     </div>
